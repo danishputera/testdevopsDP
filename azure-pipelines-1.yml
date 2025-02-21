@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: 'danishpool'
+  name: 'danishpool'
 
 variables:
   solution: '**/*.sln'
